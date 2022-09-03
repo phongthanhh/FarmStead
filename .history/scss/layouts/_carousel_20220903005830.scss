@@ -1,0 +1,12 @@
+@import "../helper/variables";
+.carouselLeft__content {
+    position: absolute;
+    left: 10em;
+    z-index: 1;
+}
+
+.carouselLeft__content-content {
+    p {
+        margin-bottom: 0;
+    }
+}

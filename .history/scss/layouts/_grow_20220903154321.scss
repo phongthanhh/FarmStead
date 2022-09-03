@@ -1,0 +1,38 @@
+@import "../helper/variables";
+.grow {
+    &__content {}
+    &__left {}
+    &__right {
+        &__content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            &__item {
+                padding: 40px 30px;
+                border-radius: $border-radius;
+                text-align: center;
+                box-shadow: 0 1rem 3rem $shadowColor;
+                background-color: $bgcolor;
+                h4 {
+                    font-size: 20px;
+                    line-height: 28px;
+                    font-weight: 600;
+                    margin-top: 25px;
+                    display: block;
+                    transition: 0.5s;
+                    &:hover {
+                        color: $textSecondary;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.icon {
+    img {
+        max-width: 65px;
+        display: block;
+        margin: 0 auto;
+    }
+}

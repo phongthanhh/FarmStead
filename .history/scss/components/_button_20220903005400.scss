@@ -1,0 +1,14 @@
+@import "../helper/variables";
+.btnMain {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 16px;
+    line-height: 26px;
+    text-transform: uppercase;
+    padding: 12px 30px;
+    font-weight: 600;
+    background: $textPrimary;
+    border: none;
+    color: #fff;
+    border-radius: 30px;
+    display: inline-block;
+}

@@ -1,0 +1,24 @@
+@import "../helper/variables";
+.carouselLeft {
+    position: absolute;
+    left: 10em;
+    z-index: 1;
+    top: 0
+}
+
+.carouselLeft__content {}
+
+.carouselLeft__content-content {
+    h3 {
+        font-size: 50px;
+        line-height: 60px;
+        font-weight: bold;
+    }
+    p {
+        margin-bottom: 0;
+    }
+}
+
+.carouselRight {
+    margin-left: auto !important;
+}

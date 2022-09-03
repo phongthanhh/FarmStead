@@ -1,0 +1,16 @@
+@import "../helper/variables";
+.why {
+    &__left {
+        &__colLeft {
+            i {
+                font-size: 30px;
+                color: $textPrimary;
+            }
+            &__detail {
+                h4 {
+                    font-weight: 600;
+                }
+            }
+        }
+    }
+}

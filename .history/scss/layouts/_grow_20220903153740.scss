@@ -1,0 +1,31 @@
+@import "../helper/variables";
+.grow {
+    &__content {}
+    &__left {}
+    &__right {
+        &__content {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 20px;
+            &__item {
+                padding: 40px 30px;
+                text-align: center;
+                h4 {
+                    font-size: 20px;
+                    line-height: 28px;
+                    font-weight: 600;
+                    margin-top: 25px;
+                    display: block;
+                }
+            }
+        }
+    }
+}
+
+.icon {
+    img {
+        max-width: 65px;
+        display: block;
+        margin: 0 auto;
+    }
+}

@@ -1,0 +1,20 @@
+@import "../helper/variables";
+.what {
+    background: $bgSecondary;
+    &__title {
+        position: relative;
+        &__h4 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            ;
+        }
+        &__heading {
+            color: #fff;
+            h3 {
+                color: #fff;
+            }
+        }
+    }
+}

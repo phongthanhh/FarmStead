@@ -1,0 +1,9 @@
+@import "../helper/variables";
+.what {
+    background: $bgSecondary;
+    &__title {
+        &__heading {
+            color: #fff;
+        }
+    }
+}

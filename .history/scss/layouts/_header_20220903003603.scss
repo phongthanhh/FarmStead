@@ -1,0 +1,14 @@
+// .navbar {
+//     justify-content: space-between
+// }
+.navbar a {
+    position: relative;
+    color: $textPrimary;
+    font-size: 2rem;
+    i {
+        position: absolute;
+        top: -10%;
+        left: 34%;
+        font-size: 1.25rem;
+    }
+}

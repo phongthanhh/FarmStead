@@ -1,0 +1,11 @@
+@import "../helper/variables";
+.grow {
+    &__content {}
+    &__left {}
+    &__right {
+        &__content {
+            // display: grid;
+            grid-template-columns: 1fr 1fr;
+        }
+    }
+}
