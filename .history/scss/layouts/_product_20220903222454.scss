@@ -6,10 +6,12 @@
     &__item {
         padding: 0;
         a {
+            transition: all 0.5s;
             &:hover figure {
+                transition: all 0.5s;
                 &::before {
-                    transition: all 0.7s;
-                    left: 100%;
+                    transition: all 0.5s;
+                    left: 115%;
                 }
             }
             figure {

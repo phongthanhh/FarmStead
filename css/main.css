@@ -287,11 +287,16 @@ header {
 .product__item {
   padding: 0;
 }
-.product__item figure {
+.product__item a:hover figure::before {
+  transition: all 0.7s;
+  left: 100%;
+}
+.product__item a figure {
   position: relative;
   margin: 0;
+  overflow: hidden;
 }
-.product__item figure::before {
+.product__item a figure::before {
   position: absolute;
   content: "";
   width: 50%;
@@ -300,10 +305,10 @@ header {
   transform: skewX(-17deg);
   left: -65%;
 }
-.product__item figure img {
+.product__item a figure img {
   width: 100%;
 }
-.product__item figure h5 {
+.product__item a figure h5 {
   position: absolute;
   z-index: 0;
   bottom: 0;

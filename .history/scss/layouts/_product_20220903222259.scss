@@ -6,11 +6,9 @@
     &__item {
         padding: 0;
         a {
-            &:hover figure {
-                &::before {
-                    transition: all 0.7s;
-                    left: 100%;
-                }
+            transition: all 0.5s;
+            &:hover h5 {
+                color: red;
             }
             figure {
                 position: relative;
