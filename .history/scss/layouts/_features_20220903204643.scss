@@ -1,0 +1,19 @@
+@import "../helper/variables";
+.features {
+    &__item {
+        margin-top: 30px;
+    }
+    &-unit {
+        border-radius: 10px;
+        border: 1px solid transparent;
+        padding: 2rem 1rem;
+        transition: 0.3s ease-in;
+        &-para {
+            h4 {
+                font-size: 22px;
+                line-height: 25px;
+                font-weight: 600;
+            }
+        }
+    }
+}

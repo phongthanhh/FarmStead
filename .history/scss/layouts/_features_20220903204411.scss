@@ -1,0 +1,9 @@
+@import "../helper/variables";
+.features {
+    &__item {
+        margin-top: 30px;
+    }
+    &-unit {
+        padding: 2rem 1rem;
+    }
+}

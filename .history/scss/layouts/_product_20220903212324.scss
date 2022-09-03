@@ -1,0 +1,14 @@
+@import "../helper/variables";
+.product {
+    &__content {
+        margin: 0;
+    }
+    &__item {
+        padding: 0;
+        figure {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

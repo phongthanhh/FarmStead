@@ -1,0 +1,13 @@
+@import "../helper/variables";
+.product {
+    &__content {
+        flex-wrap: wrap;
+    }
+    &__item {
+        figure {
+            img {
+                width: 100%;
+            }
+        }
+    }
+}

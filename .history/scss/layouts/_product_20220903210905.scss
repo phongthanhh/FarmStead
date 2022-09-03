@@ -1,0 +1,7 @@
+@import "../helper/variables";
+.product {
+    &__content {}
+    &__item {
+        padding: 0;
+    }
+}

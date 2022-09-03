@@ -1,0 +1,25 @@
+@import "../helper/variables";
+.features {
+    &__item {
+        margin-top: 30px;
+    }
+    &-unit {
+        border-radius: 10px;
+        border: 1px solid transparent;
+        padding: 2rem 1rem;
+        transition: 0.3s ease-in;
+        &:hover . &-para {
+            h4 {
+                color: $textSecondary;
+            }
+        }
+        &-para {
+            h4 {
+                font-size: 22px;
+                line-height: 25px;
+                font-weight: 600;
+                transition: all 0.5s;
+            }
+        }
+    }
+}
