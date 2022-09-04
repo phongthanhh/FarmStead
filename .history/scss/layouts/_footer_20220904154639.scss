@@ -1,0 +1,23 @@
+@import "../helper/variables";
+.footer {
+    h3 {
+        font-size: 20px;
+        line-height: 25px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        text-transform: uppercase;
+        color: $textHeadingDark;
+    }
+}
+
+.footerLogo__farm {
+    color: $textPrimary;
+    position: relative;
+    font-size: 2rem;
+    i {
+        position: absolute;
+        font-size: 20px;
+        left: 52px;
+        top: -3px;
+    }
+}

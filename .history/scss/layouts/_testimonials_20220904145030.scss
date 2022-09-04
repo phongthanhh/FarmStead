@@ -1,0 +1,20 @@
+@import "../helper/variables";
+.testimonials {
+    background: url(https://wp.w3layouts.com/farmstead/wp-content/themes/farmstead/assets/images/bg1.jpg);
+}
+
+.testimonials__item {
+    &__content {
+        max-width: 930px;
+        margin: 0 auto;
+    }
+}
+
+.testi__about {
+    &__img {
+        width: 90px;
+        height: 90px;
+        display: inline-block;
+        border-radius: 50%;
+    }
+}

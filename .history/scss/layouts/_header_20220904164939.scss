@@ -1,0 +1,53 @@
+// .navbar {
+//     justify-content: space-between
+// }
+header {
+    background-color: transparent;
+    padding: 0px;
+    height: 90px;
+    display: grid;
+    align-items: center;
+}
+
+.navbar {
+    &__left {
+        button {
+            .fa-moon {
+                line-height: 30px;
+                background-color: #fff;
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                outline: none;
+                transition: all 0.3s;
+                &:hover {
+                    color: $textPrimary;
+                }
+            }
+            .fa-sun {
+                line-height: 30px;
+                background-color: #000;
+                width: 30px;
+                height: 30px;
+                border-radius: 5px;
+                outline: none;
+                transition: all 0.3s;
+                &:hover {
+                    color: $textPrimary;
+                }
+            }
+        }
+    }
+}
+
+.navbar h1 a {
+    position: relative;
+    color: $textPrimary;
+    font-size: 2rem;
+    i {
+        position: absolute;
+        top: -10%;
+        left: 34%;
+        font-size: 1.25rem;
+    }
+}

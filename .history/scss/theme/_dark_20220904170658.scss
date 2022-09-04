@@ -1,0 +1,18 @@
+@import "../helper/variables";
+// Dark Theme
+.dark {
+    background-color: $bgDarkColor;
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+// LIght Theme
+#switchButton .fa-sun {
+    display: none;
+}

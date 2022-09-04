@@ -1,0 +1,126 @@
+@import "../helper/variables";
+.carouselLeft {
+    position: absolute;
+    left: 10em;
+    z-index: 2;
+    top: 50%;
+    transform: translateY(-50%);
+    &__content {
+        h2 {
+            font-size: 120px;
+            font-weight: bold;
+            margin-left: -0.5em;
+            color: $textGreyTransparent;
+            line-height: 27px;
+        }
+        &-content {
+            h3 {
+                font-size: 50px;
+                line-height: 60px;
+                font-weight: bold;
+                color: $textHeadingDark;
+            }
+            p {
+                margin-bottom: 0;
+                color: $textGrey;
+                font-size: 20px;
+            }
+        }
+    }
+}
+
+.carouselRight {
+    margin-left: auto !important;
+    padding-right: 0;
+}
+
+.item {
+    border-bottom-left-radius: 20px;
+    min-height: 100vh;
+    overflow: hidden;
+    img {
+        width: 100%;
+        height: 100vh;
+        object-fit: cover;
+    }
+}
+
+.owl-dots {
+    position: absolute;
+    left: 50%;
+    bottom: 10px;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+    background: #ffffff;
+}
+
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+    background: $textPrimary;
+}
+
+@media screen and (max-width:1440px) {
+    .carouselLeft {
+        &__content {
+            h2 {
+                color: var(--bg-grey);
+                font-size: 100px;
+                margin-left: -0.5em;
+                color: $textGreyTransparent;
+            }
+            &-content {
+                h3 {
+                    font-size: 40px;
+                    line-height: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:1149px) {
+    .carouselLeft {
+        position: absolute;
+        left: 5em;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        &__content {
+            h2 {
+                font-size: 90px;
+                margin-left: -0.5em;
+                color: $textGreyTransparent;
+            }
+            &-content {
+                h3 {
+                    font-size: 35px;
+                    line-height: 45px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:940px) {
+    .carouselLeft {
+        position: absolute;
+        left: 2em;
+        z-index: 2;
+        top: 50%;
+        transform: translateY(-50%);
+        &__content {
+            h2 {
+                font-size: 80px;
+                margin-left: -0.5em;
+                color: $textGreyTransparent;
+            }
+            &-content {
+                h3 {
+                    font-size: 32px;
+                    line-height: 42px;
+                }
+            }
+        }
+    }
+}

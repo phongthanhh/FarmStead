@@ -1,0 +1,12 @@
+@import "../helper/variables";
+.footer {}
+
+.footerLogo__farm {
+    color: $textPrimary;
+    position: relative;
+    font-size: 2rem;
+    i {
+        position: absolute;
+        top: 0;
+    }
+}
