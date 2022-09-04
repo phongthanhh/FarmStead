@@ -5,10 +5,6 @@
     display: none;
 }
 
-#switchButton .fa-moon {
-    color: #000;
-}
-
 // Dark Theme
 // HEADER
 .dark {
@@ -16,12 +12,10 @@
 }
 
 .dark #switchButton .fa-sun {
-    color: #000;
     display: block;
 }
 
 .dark #switchButton .fa-moon {
-    color: #000;
     display: none;
 }
 

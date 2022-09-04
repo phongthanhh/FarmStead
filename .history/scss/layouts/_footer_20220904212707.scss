@@ -9,11 +9,7 @@
         color: $textHeadingDark;
     }
     &__item {
-        p {
-            a {
-                color: $textGrey;
-            }
-        }
+        color: $textGrey;
         &__contact {
             form {
                 input {

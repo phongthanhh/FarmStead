@@ -25,6 +25,7 @@ const getCustomHeaderDark = () => {
     box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
     height: 70px;
     transition: all 0.4s ease 0s;
+    
   `
 }
 

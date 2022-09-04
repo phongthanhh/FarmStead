@@ -19,15 +19,6 @@ const getCustomHeader = () => {
   `
 }
 
-const getCustomHeaderDark = () => {
-    headerEl.style.cssText = `
-    background-color: #222222;
-    box-shadow: 0 3px 6px 0 rgb(0 0 0 / 5%);
-    height: 70px;
-    transition: all 0.4s ease 0s;
-  `
-}
-
 const getStyleHeader = {
     default: getDefaultHeader,
     scroll: getCustomHeader
@@ -65,12 +56,7 @@ Solution:
         document.getElementById("carousel").classList.toggle("dark");
         document.getElementById("header").classList.toggle("dark");
         document.getElementById("growID").classList.toggle("dark");
-        document.getElementById("whyId").classList.toggle("dark");
-        document.getElementById("featuresId").classList.toggle("dark");
-        document.getElementById("productId").classList.toggle("dark");
-        document.getElementById("footerId").classList.toggle("dark");
-        document.getElementById("cardID").classList.toggle("dark");
-        document.getElementById("cardID2").classList.toggle("dark");
-        document.getElementById("cardID3").classList.toggle("dark");
+        document.getElementsByClassName("why").classList.toggle("dark");
+
 
     }

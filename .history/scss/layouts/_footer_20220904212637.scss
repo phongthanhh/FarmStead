@@ -1,5 +1,6 @@
 @import "../helper/variables";
 .footer {
+    color: $textGrey;
     h3 {
         font-size: 20px;
         line-height: 25px;
@@ -9,11 +10,6 @@
         color: $textHeadingDark;
     }
     &__item {
-        p {
-            a {
-                color: $textGrey;
-            }
-        }
         &__contact {
             form {
                 input {

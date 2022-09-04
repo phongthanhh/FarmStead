@@ -1,12 +1,7 @@
 @import "../helper/variables";
 // LIght Theme
 #switchButton .fa-sun {
-    color: #000;
     display: none;
-}
-
-#switchButton .fa-moon {
-    color: #000;
 }
 
 // Dark Theme
@@ -16,12 +11,10 @@
 }
 
 .dark #switchButton .fa-sun {
-    color: #000;
     display: block;
 }
 
 .dark #switchButton .fa-moon {
-    color: #000;
     display: none;
 }
 
@@ -67,20 +60,6 @@
     }
 }
 
-// What
-.dark .card-body {
-    background-color: $bgDarkColor;
-    a {
-        color: #fff;
-        &:hover {
-            color: $textSecondary;
-        }
-    }
-    p {
-        color: $textDecsDark;
-    }
-}
-
 // Why
 .dark .why__left__colLeft {
     &__detail {
@@ -88,37 +67,6 @@
             color: #fff;
         }
         p {
-            color: $textDecsDark;
-        }
-    }
-}
-
-// Feature
-.dark .features__item {
-    .features-unit {
-        &:hover {
-            border: 1px solid $border-color-lightDT;
-            transition: 0.3s ease-in;
-        }
-        &-para {
-            h4 {
-                color: #fff;
-            }
-            p {
-                color: $textDecsDark;
-            }
-        }
-    }
-}
-
-// footer
-.dark .footer__item {
-    h3 {
-        color: #fff;
-    }
-    p {
-        color: $textDecsDark;
-        a {
             color: $textDecsDark;
         }
     }

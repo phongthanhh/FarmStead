@@ -1,0 +1,27 @@
+@import "../helper/variables";
+// LIght Theme
+#switchButton .fa-sun {
+    display: none;
+}
+
+// Dark Theme
+.dark {
+    background-color: $bgDarkColor;
+}
+
+.dark #switchButton .fa-sun {
+    display: block;
+}
+
+.dark #switchButton .fa-moon {
+    display: none;
+}
+
+.dark .grow__right__content__item {
+    background-color: $bgDarkColor;
+    box-shadow: 0 1rem 3rem $shadowColorDark;
+    transition: all 0.3s;
+    &:hover {
+        box-shadow: 0 25px 98px 0 rgb(0 0 0 / 10%);
+    }
+}

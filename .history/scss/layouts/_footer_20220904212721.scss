@@ -9,10 +9,9 @@
         color: $textHeadingDark;
     }
     &__item {
-        p {
-            a {
-                color: $textGrey;
-            }
+        color: $textGrey;
+        a {
+            color: $textGrey;
         }
         &__contact {
             form {

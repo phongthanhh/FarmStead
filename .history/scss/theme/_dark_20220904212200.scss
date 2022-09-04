@@ -1,12 +1,7 @@
 @import "../helper/variables";
 // LIght Theme
 #switchButton .fa-sun {
-    color: #000;
     display: none;
-}
-
-#switchButton .fa-moon {
-    color: #000;
 }
 
 // Dark Theme
@@ -16,12 +11,10 @@
 }
 
 .dark #switchButton .fa-sun {
-    color: #000;
     display: block;
 }
 
 .dark #switchButton .fa-moon {
-    color: #000;
     display: none;
 }
 
@@ -95,11 +88,12 @@
 
 // Feature
 .dark .features__item {
+    &:hover {
+        border: 1px solid $border-color-lightDT;
+        transition: 0.3s ease-in;
+        box-shadow: none;
+    }
     .features-unit {
-        &:hover {
-            border: 1px solid $border-color-lightDT;
-            transition: 0.3s ease-in;
-        }
         &-para {
             h4 {
                 color: #fff;
@@ -107,19 +101,6 @@
             p {
                 color: $textDecsDark;
             }
-        }
-    }
-}
-
-// footer
-.dark .footer__item {
-    h3 {
-        color: #fff;
-    }
-    p {
-        color: $textDecsDark;
-        a {
-            color: $textDecsDark;
         }
     }
 }
